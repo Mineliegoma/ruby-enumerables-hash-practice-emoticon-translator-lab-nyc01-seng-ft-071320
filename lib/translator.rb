@@ -43,7 +43,11 @@ def get_english_meaning(file_path, japanese_emoticon)
   if value[:japanese] == japanese_emoticon
    translation=value[:english]
    translation=key
+<<<<<<< HEAD
   # binding.pry
+=======
+   binding.pry
+>>>>>>> 5346f260cf1cb6907fd1af1668eb1d521b3e4ddd
  end
  end
  if translation==""
@@ -52,5 +56,9 @@ def get_english_meaning(file_path, japanese_emoticon)
    return translation
  end
  end 
+<<<<<<< HEAD
  filter_parameter_logging
+=======
+
+>>>>>>> 5346f260cf1cb6907fd1af1668eb1d521b3e4ddd
  
